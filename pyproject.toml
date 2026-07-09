@@ -5,7 +5,23 @@ description = "Tile an image across a PDF page for print-ready output."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
+authors = [{ name = "Adityarup Laha", email = "me@adityaruplaha.me" }]
 dependencies = ["typer", "reportlab", "pillow"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+]
+keywords = ["pdf", "image", "tiling", "batch", "photography"]
+
+[project.urls]
+Repository = "https://github.com/adityaruplaha/ImageTyler"
+Issues = "https://github.com/adityaruplaha/ImageTyler/issues"
 
 [project.scripts]
 imagetyler = "imagetyler.cli:app"
