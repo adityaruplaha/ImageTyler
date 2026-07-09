@@ -1,5 +1,6 @@
 # ImageTyler
 
+[![PyPI version](https://img.shields.io/pypi/v/imagetyler.svg)](https://pypi.org/project/imagetyler)
 [![BSD-3-Clause](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](LICENSE)
 
 ImageTyler tiles a source image across a PDF page for print-ready output. Entirely vibe-coded, but reviewed and tested by humans. It supports mixed-unit dimensions, padding, and cutting guides.

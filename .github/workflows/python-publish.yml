@@ -26,11 +26,10 @@ jobs:
         with:
           python-version: "3.x"
 
+      - uses: astral-sh/setup-uv@v2
+
       - name: Build release distributions
-        run: |
-          # NOTE: put your own distribution build steps here.
-          python -m pip install build
-          python -m build
+        run: uv build
 
       - name: Upload distributions
         uses: actions/upload-artifact@v4
